@@ -2,14 +2,13 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="157.0" prefWidth="600.0" stylesheets="@../styles/Styles.css" type="GridPane" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="157.0" prefWidth="600.0" type="GridPane" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.199951171875" minWidth="10.0" prefWidth="127.39998779296874" />
     <ColumnConstraints hgrow="SOMETIMES" maxWidth="300.800048828125" minWidth="10.0" prefWidth="122.6" />
@@ -19,11 +18,7 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <ImageView fx:id="imgProducto" fitHeight="125.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../imagenes/trigo.png" />
-         </image>
-      </ImageView>
+      <ImageView fx:id="imgProducto" fitHeight="125.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true" />
       <Label fx:id="lblNombreProducto" text="Trigo" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
          <font>
             <Font size="50.0" />
